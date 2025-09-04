@@ -66,6 +66,6 @@ cat > "$SITE_DIR/index.html" <<EOF
         <tbody>
 EOF
 cat "$SITE_DIR/decks_rows.html" >> "$SITE_DIR/index.html"
-echo "        </tbody>      </table>\n      <p style=\"margin-top:2rem;color:#569FC6;font-weight:500;\">Made with <span style=\"font-size:1.2em;color:#DF9E2F;\">❤️</span> by Kartoza</p>\n    </div>\n  </section>\n</body>\n</html>" >> "$SITE_DIR/index.html"
+echo "        </tbody>      </table>      <p style=\"margin-top:2rem;color:#569FC6;font-weight:500;\">Made with <span style=\"font-size:1.2em;color:#DF9E2F;\">❤️</span> by Kartoza</p>    </div>  </section></body></html>" >> "$SITE_DIR/index.html"
 
 rm "$SITE_DIR/decks.txt" "$SITE_DIR/decks_rows.html"
