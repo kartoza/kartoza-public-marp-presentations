@@ -1,5 +1,7 @@
 /* @theme kartoza.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
 /* Define base and accent colors */
 :root {
     --color-primary: rgb(109, 148, 169);
@@ -13,6 +15,10 @@
 }
 
 /* Global settings */
+body, html, section {
+    font-family: 'Nunito', sans-serif;
+}
+
 section {
     background-color: var(--color-background);
     color: var(--color-foreground);
@@ -85,3 +91,40 @@ h4 {
     font-size: 84px;
     /* Tripling the original size for subheadings */
 }
+
+/* Background styles for template slides */
+.bg-title {
+    background-image: url('img/title.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-end {
+    background-image: url('img/end.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image-left {
+    background-image: url('img/image-left.png');
+    background-size: cover;
+    background-position: left center;
+}
+
+/* Example usage in Marp markdown slides:
+
+---
+class: bg-title
+# Title Slide
+Welcome to the presentation
+
+---
+class: bg-end
+# End Slide
+Thank you!
+
+---
+class: bg-image-left
+# Image Left Slide
+Content with image on the left
+*/

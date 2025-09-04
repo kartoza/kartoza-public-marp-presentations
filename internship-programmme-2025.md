@@ -6,18 +6,18 @@ title: Kartoza Internship Programme 2025
 backgroundColor: #fff8f0
 ---
 
-# 📘 Title
-
-## Subtitle
-
-### Sub Sub Title
+class: bg-title
+# Title Slide
+Welcome to the presentation
 
 ---
 
-## 🧾 Structure
+class: bg-end
+# End Slide
+Thank you!
 
-1. One
-2. Two
-3. Three
-4. Four
-5. Five
+---
+
+class: bg-image-left
+# Image Left Slide
+Content with image on the left
