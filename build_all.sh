@@ -3,6 +3,9 @@ set -e
 SITE_DIR="site"
 mkdir -p "$SITE_DIR"
 
+# Copy image resources to site for GitHub Pages deployment
+cp -r img "$SITE_DIR/"
+
 # Find all markdown files (excluding README.md and index)
 find . -maxdepth 1 -name '*.md' ! -name 'README.md' ! -name 'index.md' | while read -r mdfile; do
   base=$(basename "$mdfile" .md)

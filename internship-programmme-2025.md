@@ -12,12 +12,11 @@ Welcome to the presentation
 
 ---
 
-class: bg-end
-# End Slide
-Thank you!
-
----
-
 class: bg-image-left
 # Image Left Slide
 Content with image on the left
+
+---
+class: bg-end
+# End Slide
+Thank you!
