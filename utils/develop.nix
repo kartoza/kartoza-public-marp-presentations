@@ -19,6 +19,7 @@ pkgs.mkShell {
     pkgs.actionlint
     pkgs.shellcheck
     pkgs.nodePackages.cspell
+    pkgs.marp-cli
   ];
 
   shellHook = ''
